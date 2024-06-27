@@ -1,30 +1,80 @@
+/* set fonts  */
+@font-face {
+  font-family: "Vazir";
+  src: url("../public/fonts/vazir.eot"); /* IE9 */
+  src: url("../public/fonts/vazir.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../public/fonts/vazir.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../public/fonts/vazir.woff") format("woff"),
+    /* Modern Browsers */ url("../public/fonts/vazir.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("../public/fonts/Vazir-Bold.eot"); /* IE9 */
+  src: url("../public/fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../public/fonts/Vazir-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../public/fonts/Vazir-Bold.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../public/fonts/Vazir-Bold.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: "Vazir";
+}
+
+/*
+#A3D2A1
+#FFA07A
+#D3D3D3
+#FADADD
+#C1E1C1
+#FFFACD 
+*/
+
 /* navbar */
 /* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
+.nav-link,
+.navbar-toggler-icon,
+.navbar-brand {
   color: #fff;
 }
 
 /* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scrolled .navbar-brand {
+.nav-link,
+.navbar-toggler-icon,
+.navbar-brand {
   color: #fff;
-}
-
-/* Color of the navbar AFTER scroll */
-.navbar-scroll,
-.navbar-scrolled {
-  background-color: #cbbcb1;
 }
 
 .mask-custom {
   backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, .15);
+  /* background-color: #f6f7fa; */
+  background-color: #c1e1c152;
 }
 
 .navbar-brand {
   font-size: 1.75rem;
   letter-spacing: 3px;
+}
+
+.animate-transtion {
+  transform: translate(0px, 650px);
+  animation: animateEllipses 25s linear infinite;
+}
+
+@keyframes animateEllipses {
+  0% {
+    transform: translate(0px, 650px);
+  }
+  50% {
+    transform: translate(100px, 600px);
+  }
+  100% {
+    transform: translate(0px, 650px);
+  }
 }
