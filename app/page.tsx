@@ -8,8 +8,11 @@ import {
   faCamera,
   faDatabase,
   faHourglassHalf,
+  faPersonCane,
   faUpload,
 } from "@fortawesome/free-solid-svg-icons";
+import { faPersonCircleXmark } from "@fortawesome/free-solid-svg-icons/faPersonCircleXmark";
+import { faBookTanakh } from "@fortawesome/free-solid-svg-icons/faBookTanakh";
 
 const Home = () => {
   return (
@@ -88,7 +91,7 @@ const Home = () => {
       <section>
         <div className="feat  pt-5 pb-5">
           <div className="">
-            <div className="row d-flex justify-content-evenly justify-content-lg-center">
+            <div className="row d-flex justify-content-evenly justify-content-lg-center servis-main">
               <div className="section-head col-sm-12">
                 <h4>
                   <span>چرا </span> من{" "}
@@ -184,6 +187,60 @@ const Home = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="row justify-content-center  ">
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
           </div>
         </div>
       </section>
