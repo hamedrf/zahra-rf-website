@@ -2,17 +2,17 @@ import { NavBar } from "@/components/NavBar";
 import imgHeader from "../public/images/me2.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faAnchor,
   faBook,
   faCamera,
   faDatabase,
   faHourglassHalf,
-  faPersonCane,
   faUpload,
 } from "@fortawesome/free-solid-svg-icons";
-import { faPersonCircleXmark } from "@fortawesome/free-solid-svg-icons/faPersonCircleXmark";
 import { faBookTanakh } from "@fortawesome/free-solid-svg-icons/faBookTanakh";
+import FaqSelction from "@/components/FaqSelction";
 
 const Home = () => {
   return (
@@ -88,7 +88,105 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <section>
+      <section className="row justify-content-center mt-5">
+        <div className="section-head col-sm-12">
+          <h4>
+            <span>چرا </span> من{" "}
+            <span>
+              را <span className="border-botton-green">انتخاب</span> کنید{" "}
+            </span>
+            ?
+          </h4>
+          <p>
+            When you choose us, youll feel the benefit of 10 years experience of
+            Web Development. Because we know the digital world and we know that
+            how to handle it. With working knowledge of online, SEO and social
+            media.
+          </p>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p className="fs-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p className="fs-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p className="fs-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
+          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
+            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+          </span>
+          <div className="pe-3 col-8 col-lg-9 ">
+            <h3>title</h3>
+            <p className="fs-6">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+              ستون و سطرآنچنان که لازم است
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        className="bg-gray position-relative "
+        style={{ padding: "10vh 0", margin: "5vh 0" }}
+      >
+        <div className="custom-shape-divider-top-1720172254">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div className="custom-shape-divider-bottom-1720172566">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              className="shape-fill"
+            ></path>
+          </svg>
+        </div>
         <div className="feat  pt-5 pb-5">
           <div className="">
             <div className="row d-flex justify-content-evenly justify-content-lg-center servis-main">
@@ -190,58 +288,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="row justify-content-center  ">
-        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
-          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
-          </span>
-          <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
-            </p>
-          </div>
-        </div>
-        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
-          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
-          </span>
-          <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
-            </p>
-          </div>
-        </div>
-        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
-          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
-          </span>
-          <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
-            </p>
-          </div>
-        </div>
-        <div className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3">
-          <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
-          </span>
-          <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
-            </p>
-          </div>
+      <section className="row d-flex justify-content-center">
+        <div className="col-md-10 col-lg-8">
+          <FaqSelction />
         </div>
       </section>
     </div>

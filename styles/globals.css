@@ -26,9 +26,6 @@
 .row {
   margin-inline: 0 !important ;
 }
-.row * {
-  padding: 0;
-}
 * {
   font-family: "Vazir";
   direction: rtl;
@@ -286,6 +283,46 @@
 
 /* why choose us */
 
+/* servis svg */
+.custom-shape-divider-top-1720172254 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1720172254 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 6vw;
+}
+
+.custom-shape-divider-top-1720172254 .shape-fill {
+  fill: #ffffff;
+}
+.custom-shape-divider-bottom-1720172566 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1720172566 svg {
+  position: relative;
+  display: block;
+  width: calc(100vw + 1.3px);
+  height: 6vw;
+}
+
+.custom-shape-divider-bottom-1720172566 .shape-fill {
+  fill: #ffffff;
+}
+
 .servis-item:hover {
   transform: translate(0px, -10px);
 }
@@ -376,7 +413,7 @@ p.awesome_line {
   transition: all 0.5s ease 0s;
 }
 .servis-item:hover {
-  background: #a3d2a1;
+  /* background: #a3d2a1; */
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;
@@ -392,7 +429,6 @@ p.awesome_line {
 }
 .servis-item:hover h6,
 .servis-item:hover p {
-  color: #fff;
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;
   transition: all 0.5s ease 0s;
@@ -406,25 +442,62 @@ p.awesome_line {
   line-height: 96px;
   border-radius: 50px;
 }
+.servis-item:hover:has(.feature_box_col_one) {
+  background: rgba(247, 198, 5, 0.2) !important;
+}
+.servis-item:hover:has(.feature_box_col_one) .icon {
+  color: rgba(247, 198, 5, 0.5) !important;
+}
 .servis-item .feature_box_col_one {
   background: rgba(247, 198, 5, 0.2);
   color: #a3d2a1;
+}
+.servis-item:hover:has(.feature_box_col_two) {
+  background: rgba(255, 77, 28, 0.15);
+}
+.servis-item:hover:has(.feature_box_col_two) .icon {
+  color: rgba(255, 77, 28, 0.4);
 }
 .servis-item .feature_box_col_two {
   background: rgba(255, 77, 28, 0.15);
   color: #a3d2a1;
 }
+.servis-item:hover:has(.feature_box_col_three) {
+  background: rgba(0, 147, 38, 0.15);
+}
+.servis-item:hover:has(.feature_box_col_three) .icon {
+  color: rgba(0, 147, 38, 0.4);
+}
 .servis-item .feature_box_col_three {
   background: rgba(0, 147, 38, 0.15);
   color: #a3d2a1;
+}
+
+.servis-item:hover:has(.feature_box_col_four) {
+  background: rgba(0, 108, 255, 0.15);
+}
+.servis-item:hover:has(.feature_box_col_four) .icon {
+  color: rgba(0, 108, 255, 0.4);
 }
 .servis-item .feature_box_col_four {
   background: rgba(0, 108, 255, 0.15);
   color: #a3d2a1;
 }
+.servis-item:hover:has(.feature_box_col_five) {
+  background: rgba(146, 39, 255, 0.15);
+}
+.servis-item:hover:has(.feature_box_col_five) .icon {
+  color: rgba(146, 39, 255, 0.4);
+}
 .servis-item .feature_box_col_five {
   background: rgba(146, 39, 255, 0.15);
   color: #a3d2a1;
+}
+.servis-item:hover:has(.feature_box_col_six) {
+  background: rgba(23, 39, 246, 0.15);
+}
+.servis-item:hover:has(.feature_box_col_six) .icon {
+  color: rgba(23, 39, 246, 0.4);
 }
 .servis-item .feature_box_col_six {
   background: rgba(23, 39, 246, 0.15);
@@ -546,4 +619,27 @@ p.awesome_line {
   height: 100%;
   transition: all 1s;
   color: #a3d2a1;
+}
+
+/* FAQ section */
+
+.faq-num {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 5px;
+  background-color: #ffa07a;
+}
+.faq-header span {
+  transition: 1s;
+}
+.faq-header:hover .faq-num {
+  background-color: #fff;
+}
+.faq-header:hover span {
+  transform: translate(-5px);
+}
+.faq-header:hover button {
+  background-color: #ffa07a;
+}
+.accordion-item {
 }
