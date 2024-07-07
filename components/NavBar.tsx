@@ -1,13 +1,24 @@
-import React from "react";
+"use client";
 
-export const NavBar = () => {
+import { Link } from "react-scroll";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const NavBar: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top  mask-custom">
       <div className="container flex-row-reverse d-flex">
-        <a className="navbar-brand" href="#!">
+        <Link
+          title="زهرا رجبی فرجاد"
+          to="header"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className="navbar-brand"
+        >
           <span style={{ color: "#A3D2A1" }}>Zahra</span>
           <span style={{ color: "#FFA07A" }}> rajabifarjad</span>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -25,46 +36,82 @@ export const NavBar = () => {
         >
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link" title="چرا ما" href="#!">
+              <Link
+                className="nav-link"
+                title="خانه"
+                to="header"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                خانه
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                title="چرا ما"
+                to="why-us"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
                 چرا ما
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" title="خدمات ما" href="#!">
+              <Link
+                className="nav-link"
+                title="خدمات ما"
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
                 خدمات ما
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" title="سوالات پر تکرار" href="#!">
+              <Link
+                className="nav-link"
+                title="سوالات پر تکرار"
+                to="faq"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
                 سوالات پر تکرار
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" title="درباره" href="#!">
+              <Link
+                className="nav-link"
+                title="درباره"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
                 درباره
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" title="ارتباط با ما" href="#!">
+              <Link
+                className="nav-link"
+                title="ارتباط با ما"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
                 ارتباط با ما
-              </a>
-            </li>
-          </ul>
-          <ul className="navbar-nav d-flex flex-row">
-            <li className="nav-item me-3 me-lg-0">
-              <a className="nav-link" title="" href="#!">
-                <i className="fas fa-shopping-cart">11</i>
-              </a>
-            </li>
-            <li className="nav-item me-3 me-lg-0">
-              <a className="nav-link" title="" href="#!">
-                <i className="fab fa-twitter">1</i>
-              </a>
-            </li>
-            <li className="nav-item me-3 me-lg-0">
-              <a className="nav-link" title="" href="#!">
-                <i className="fab fa-instagram">1</i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -72,3 +119,5 @@ export const NavBar = () => {
     </nav>
   );
 };
+
+export default NavBar;

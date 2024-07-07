@@ -1,26 +1,29 @@
 /* set fonts  */
 @font-face {
   font-family: "Vazir";
-  src: url("../public/fonts/vazir.eot"); /* IE9 */
+  src: url("../public/fonts/vazir.eot");
   src: url("../public/fonts/vazir.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../public/fonts/vazir.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../public/fonts/vazir.woff") format("woff"),
-    /* Modern Browsers */ url("../public/fonts/vazir.ttf") format("truetype"); /* Safari, Android, iOS */
+    url("../public/fonts/vazir.woff2") format("woff2"),
+    url("../public/fonts/vazir.woff") format("woff"),
+    url("../public/fonts/vazir.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Vazir-b";
-  src: url("../public/fonts/Vazir-Bold.eot"); /* IE9 */
+  src: url("../public/fonts/Vazir-Bold.eot");
   src: url("../public/fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../public/fonts/Vazir-Bold.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../public/fonts/Vazir-Bold.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../public/fonts/Vazir-Bold.ttf")
-      format("truetype"); /* Safari, Android, iOS */
+    url("../public/fonts/Vazir-Bold.woff2") format("woff2"),
+    url("../public/fonts/Vazir-Bold.woff") format("woff"),
+    url("../public/fonts/Vazir-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 .row {

@@ -1,4 +1,3 @@
-import { NavBar } from "@/components/NavBar";
 import imgHeader from "../public/images/me2.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,6 +26,7 @@ import {
   faPhone,
   faPhoneAlt,
   faPhoneSquare,
+  faSearch,
   faUpload,
 } from "@fortawesome/free-solid-svg-icons";
 import { faBookTanakh } from "@fortawesome/free-solid-svg-icons/faBookTanakh";
@@ -36,10 +36,10 @@ import { faPhoneSlash } from "@fortawesome/free-solid-svg-icons/faPhoneSlash";
 const Home = () => {
   return (
     <div className="">
-      <NavBar />
       <header
         className="w-100  position-relative row m-0"
         style={{ background: "#f6f7fa", paddingTop: "4.4rem !important" }}
+        id="header"
       >
         {/* svg animation header  */}
         <svg
@@ -107,7 +107,10 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <section className="row justify-content-center mt-5 why-choose-us">
+      <section
+        id="why-us"
+        className="row justify-content-center mt-5 why-choose-us"
+      >
         <div className="section-head col-sm-12" data-aos="fade-left">
           <h4>
             <span>چرا </span> من{" "}
@@ -181,6 +184,7 @@ const Home = () => {
       <section
         className=" position-relative "
         style={{ padding: "10vh 0", margin: "5vh 0", background: "#d3d3d34d" }}
+        id="services"
       >
         <div className="custom-shape-divider-top-1720172254">
           <svg
@@ -291,13 +295,13 @@ const Home = () => {
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_five">
-                    <FontAwesomeIcon icon={faUpload}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
                   </span>
-                  <h6 className="fw-bold h5"> تحلیل کارنامه</h6>
+                  <h6 className="fw-bold h5"> عیب‌یابی امتحانات</h6>
                   <p>
-                    کارنامه شما را بررسی می‌کنیم و با توجه به استعدادتان،
-                    راهکارهایی برای بهبود معدل شما ارائه می‌دهیم. همچنین
-                    کتاب‌های کمک آموزشی مناسب را به شما پیشنهاد می‌کنیم.
+                    اشتباهات امتحانات شما را بررسی و تحلیل می‌کنیم و مشکل اصلی
+                    به همراه راهکار اساسی برای رفع آن را نیز به شما می‌گوییم. ما
+                    تضمین می‌کنیم که نمره‌ای کمتر از توانایی شما نگیرید.
                   </p>
                 </div>
               </div>
@@ -323,12 +327,15 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="row d-flex justify-content-center my-5">
+      <section id="faq" className="row d-flex justify-content-center my-5">
         <div className="col-md-10 col-lg-8">
           <FaqSelction />
         </div>
       </section>
-      <section className="bg-about w-100 d-flex justify-content-center position-relative z-1">
+      <section
+        id="about"
+        className="bg-about w-100 d-flex justify-content-center position-relative z-1"
+      >
         <div className=" d-flex container justify-content-center justify-content-md-end h-100 align-items-center row w-100">
           <div className="rounded col-11 col-md-9 col-lg-6 col-xl-5 about-main bg-light">
             <h3>درباره من</h3>
@@ -348,7 +355,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <footer className="position-relative d-flex justify-content-center ">
+      <footer
+        id="contact"
+        className="position-relative d-flex justify-content-center "
+      >
         <div className="footer d-none d-flex justify-content-around flex-column align-items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
