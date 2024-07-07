@@ -641,5 +641,128 @@ p.awesome_line {
 .faq-header:hover button {
   background-color: #ffa07a;
 }
-.accordion-item {
+/* about section */
+
+.bg-about {
+  height: 70vh;
+  background: url("../public/images/todolist-img.jpeg") no-repeat fixed;
+  background-size: cover;
+}
+.about-main {
+  box-shadow: 0 5px 11.2px 4.8px #00000037;
+  padding: 2vh 2vw;
+}
+
+/* footer */
+footer {
+  height: 40vh;
+}
+footer * {
+  direction: ltr;
+}
+.footer {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  transition-property: all;
+
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0, 1);
+  height: 50vh;
+  bottom: 0px;
+  position: fixed;
+  z-index: 0;
+}
+.footer-button {
+  float: left;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+.footer-button:hover {
+  width: 11rem;
+}
+
+.footer-button:nth-child(1):hover .footer-icon {
+  background: #e1306c;
+}
+
+.footer-button:nth-child(2):hover .footer-icon {
+  background: #e3791c;
+}
+
+.footer-button:nth-child(3):hover .footer-icon {
+  background: #1da1f2;
+}
+
+.footer-button:nth-child(4):hover .footer-icon {
+  background: #25d366;
+}
+
+.footer-button:nth-child(5):hover .footer-icon {
+  background: #0ea887;
+}
+
+.footer-button:nth-child(1) span {
+  color: #e1306c;
+}
+
+.footer-button:nth-child(2) span {
+  color: #e3791c;
+}
+
+.footer-button:nth-child(3) span {
+  color: #1da1f2;
+}
+
+.footer-button:nth-child(4) span {
+  color: #25d366;
+}
+
+.footer-button:nth-child(5) span {
+  color: #0ea887;
+}
+
+.footer-button .footer-icon {
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-button .footer-icon svg {
+  font-size: 25px;
+  line-height: 60px;
+  margin: 0.3rem 0.5rem 0.5rem 0.5rem;
+  height: 3rem;
+  vertical-align: middle !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-button:hover svg {
+  color: #fff;
+}
+.bg-footer {
+  background-color: #f6f7fa;
+  padding: 1rem;
+  text-align: center;
 }
