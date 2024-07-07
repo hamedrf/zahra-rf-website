@@ -436,7 +436,7 @@ p.awesome_line {
 .servis-item .icon {
   font-size: 40px;
   margin-bottom: 25px;
-  color: #a3d2a1;
+  color: #fff;
   width: 90px;
   height: 90px;
   line-height: 96px;
@@ -588,9 +588,45 @@ p.awesome_line {
   z-index: 1;
   overflow: hidden;
 }
+.item-why-us-1::after {
+  background-color: rgba(0, 108, 255, 0.4) !important;
+}
+.item-why-us-1 .icon-why-us {
+  border: 3px solid rgba(0, 108, 255, 0.4);
+}
+.item-why-us-1 .icon-why-us svg {
+  color: rgba(0, 108, 255, 0.4);
+}
+.item-why-us-2::after {
+  background-color: rgba(255, 77, 28, 0.4) !important;
+}
+.item-why-us-2 .icon-why-us {
+  border: 3px solid rgba(255, 77, 28, 0.4);
+}
+.item-why-us-2 .icon-why-us svg {
+  color: rgba(255, 77, 28, 0.4);
+}
+.item-why-us-3::after {
+  background-color: rgb(247, 198, 5, 0.5) !important;
+}
+.item-why-us-3 .icon-why-us {
+  border: 3px solid rgba(247, 198, 5, 0.5);
+}
+.item-why-us-3 .icon-why-us svg {
+  color: rgba(247, 198, 5, 0.5);
+}
+.item-why-us-4::after {
+  background-color: rgba(146, 39, 255, 0.4) !important;
+}
+.item-why-us-4 .icon-why-us {
+  border: 3px solid rgba(146, 39, 255, 0.4);
+}
+.item-why-us-4 .icon-why-us svg {
+  color: rgba(146, 39, 255, 0.4);
+}
+
 .item-why-us::after {
   content: "";
-  background-color: #a3d2a1;
   position: absolute;
   border-radius: 99px;
   right: 0;
@@ -608,7 +644,6 @@ p.awesome_line {
   transform: scale(0.9);
 }
 .icon-why-us {
-  border: 3px solid #a3d2a1;
   background-color: #fff;
   transition: all 1s;
   border-radius: 999px;
@@ -618,7 +653,6 @@ p.awesome_line {
   width: 100%;
   height: 100%;
   transition: all 1s;
-  color: #a3d2a1;
 }
 
 /* FAQ section */

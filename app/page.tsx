@@ -10,8 +10,10 @@ import {
 
 import {
   faAnchor,
+  faAward,
   faB,
   faBook,
+  faBrain,
   faCalendarDays,
   faCamera,
   faDatabase,
@@ -19,6 +21,7 @@ import {
   faGraduationCap,
   faGrinStars,
   faHourglassHalf,
+  faLightbulb,
   faMapSigns,
   faPenToSquare,
   faPhone,
@@ -104,7 +107,7 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <section className="row justify-content-center mt-5">
+      <section className="row justify-content-center mt-5 why-choose-us">
         <div className="section-head col-sm-12" data-aos="fade-left">
           <h4>
             <span>چرا </span> من{" "}
@@ -113,74 +116,64 @@ const Home = () => {
             </span>
             ?
           </h4>
-          <p>
-            When you choose us, youll feel the benefit of 10 years experience of
-            Web Development. Because we know the digital world and we know that
-            how to handle it. With working knowledge of online, SEO and social
-            media.
-          </p>
         </div>
         <div
-          className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3"
+          className="col-xxl-4  col-md-5  d-flex item-why-us item-why-us-1   align-items-center row mx-3 my-3"
           data-aos="flip-up"
         >
           <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>
           </span>
           <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
+            <h3 className="fw-bold h3">🎓 تحصیلات و رتبه کنکور</h3>
             <p className="fs-6">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
+              من زهرا رجبی هستم، با رتبه ۱۰ کنکور ریاضی و کارشناسی ارشد در رشته
+              روانشناسی با گرایش شخصیت.
             </p>
           </div>
         </div>
         <div
-          className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3"
+          className="col-xxl-4  col-md-5  d-flex item-why-us item-why-us-2 align-items-center row mx-3 my-3"
           data-aos="flip-up"
         >
           <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faBrain}></FontAwesomeIcon>
           </span>
           <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
+            <h3 className="fw-bold h3">🧠 تجربه و تخصص</h3>
             <p className="fs-6">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
+              تجربه ده‌ساله در آزمون‌های هوش، بیش‌فعالی، تمرکز، حافظه و پژوهش،
+              به طور علمی در زمینه هوش شناسی و روانشناسی تخصص دارم.
             </p>
           </div>
         </div>
         <div
-          className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3"
+          className="col-xxl-4  col-md-5  d-flex item-why-us item-why-us-3 align-items-center row mx-3 my-3"
           data-aos="flip-down"
         >
           <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faAward}></FontAwesomeIcon>
           </span>
           <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
+            <h3 className="fw-bold h3">🏅 دوره‌های تخصصی</h3>
             <p className="fs-6">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
+              دوره‌های تخصصی استعداد یابی را از انجمن استعدادیابی ایران
+              گذرانده‌ام، شامل درمان کم‌توجهی، درمان بیش‌فعالی و هنر درمانی.
             </p>
           </div>
         </div>
         <div
-          className="col-xxl-4  col-md-5  d-flex item-why-us align-items-center row mx-3 my-3"
+          className="col-xxl-4  col-md-5  d-flex item-why-us item-why-us-4 align-items-center row mx-3 my-3"
           data-aos="flip-up"
         >
           <span className="icon-why-us d-flex justify-content-center align-items-center col-4 col-lg-3 ">
-            <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faLightbulb}></FontAwesomeIcon>
           </span>
           <div className="pe-3 col-8 col-lg-9 ">
-            <h3>title</h3>
+            <h3 className="fw-bold h3">💡 برنامه‌ها و خدمات</h3>
             <p className="fs-6">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است
+              برنامه‌ها و خدماتم براساس ساختار مغز طراحی و تنظیم شده است، اعتماد
+              به ساختار مغز خود را از ما بخواهید.
             </p>
           </div>
         </div>
@@ -218,28 +211,19 @@ const Home = () => {
         <div className="feat  pt-5 pb-5">
           <div className="">
             <div className="row d-flex justify-content-evenly justify-content-lg-center servis-main">
-              <div className="section-head col-sm-12">
-                <h4>
-                  <span>چرا </span> من{" "}
-                  <span>
-                    را <span className="border-botton-green">انتخاب</span> کنید{" "}
-                  </span>
-                  ?
-                </h4>
-                <p>
-                  When you choose us, youll feel the benefit of 10 years
-                  experience of Web Development. Because we know the digital
-                  world and we know that how to handle it. With working
-                  knowledge of online, SEO and social media.
-                </p>
+              <div className=" text-center col-sm-12 pb-5" data-aos="fade-left">
+                <h4 className="h2 fw-bold">خدمات ما</h4>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3">
+              <div
+                className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3"
+                data-aos="zoom-in"
+              >
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_one">
                     <FontAwesomeIcon icon={faMapSigns}></FontAwesomeIcon>
                   </span>
-                  <h6>استراتژی و نقشه راه</h6>
+                  <h6 className="fw-bold h5">استراتژی و نقشه راه</h6>
                   <p>
                     با استفاده از انرژی، هوش و توانایی‌های شما، یک برنامه دقیق و
                     مؤثر برای مطالعه ارائه می‌دهیم تا به شما کمک کنیم در رشته و
@@ -247,13 +231,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3">
+              <div
+                className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3"
+                data-aos="zoom-in"
+              >
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_two">
                     <FontAwesomeIcon icon={faBook}></FontAwesomeIcon>
                   </span>
-                  <h6>روش مطالعه مؤثر</h6>
+                  <h6 className="fw-bold h5">روش مطالعه مؤثر</h6>
                   <p>
                     به تعداد دانش‌آموزان، روش‌های مؤثری برای مطالعه وجود دارد.
                     زهرا رجبی فرجاد به عنوان مشاور تحصیلی با تجربه، روش‌هایی که
@@ -262,13 +249,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3">
+              <div
+                className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3"
+                data-aos="zoom-in"
+              >
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_three">
                     <FontAwesomeIcon icon={faPenToSquare}></FontAwesomeIcon>
                   </span>
-                  <h6> تحلیل کارنامه</h6>
+                  <h6 className="fw-bold h5"> تحلیل کارنامه</h6>
                   <p>
                     هر دانش‌آموزی روش خاص خود را برای مطالعه دارد. وظیفه اصلی یک
                     مشاور تحصیلی این است که روشی که شما بهتر مطالب را یاد
@@ -276,13 +266,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3">
+              <div
+                className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3"
+                data-aos="zoom-in"
+              >
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_four">
                     <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>
                   </span>
-                  <h6>تحلیل استعدادیابی</h6>
+                  <h6 className="fw-bold h5">تحلیل استعدادیابی</h6>
                   <p>
                     استعدادیابی نقطه اتلاق هوش، شخصیت و علاقه‌مندی است. با تحلیل
                     سه آزمون هوش، شخصیت و علاقه‌مندی، رسالت شما را که در آن
@@ -291,13 +284,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3">
+              <div
+                className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3"
+                data-aos="zoom-in"
+              >
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_five">
                     <FontAwesomeIcon icon={faUpload}></FontAwesomeIcon>
                   </span>
-                  <h6> تحلیل کارنامه</h6>
+                  <h6 className="fw-bold h5"> تحلیل کارنامه</h6>
                   <p>
                     کارنامه شما را بررسی می‌کنیم و با توجه به استعدادتان،
                     راهکارهایی برای بهبود معدل شما ارائه می‌دهیم. همچنین
@@ -305,13 +301,16 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3">
+              <div
+                className="col-xl-3 col-lg-4 col-md-5 col-11 mx-3"
+                data-aos="zoom-in"
+              >
                 <div className="servis-item">
                   {" "}
                   <span className="icon feature_box_col_six">
                     <FontAwesomeIcon icon={faCalendarDays}></FontAwesomeIcon>
                   </span>
-                  <h6> برنامه‌ریزی روزانه</h6>
+                  <h6 className="fw-bold h5"> برنامه‌ریزی روزانه</h6>
                   <p>
                     این نوع برنامه‌ریزی که اولین بار در استرالیا برای آموزش زبان
                     افراد غیر بومی استفاده شد، نتایج باور نکردنی به همراه داشت.
