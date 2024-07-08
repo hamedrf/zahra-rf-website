@@ -204,6 +204,11 @@ body {
 }
 
 /* img header animation  */
+@media only screen and (max-width: 992px) {
+  .header-img {
+    margin-top: 5vh !important;
+  }
+}
 .header-img {
   margin-top: 25vh;
   transform: translateX(-25vw) scale(0.2, 0.2);
@@ -683,7 +688,7 @@ p.awesome_line {
 /* about section */
 
 .bg-about {
-  padding: 12vh;
+  padding: 12vh 0px;
   background: url("../public/images/todolist-img.jpeg") no-repeat fixed;
   background-size: cover;
 }
