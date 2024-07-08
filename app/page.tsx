@@ -1,4 +1,4 @@
-import imgHeader from "../public/images/me2.png";
+import imgHeader from "../public/images/zahra rajabifarjad.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -15,6 +15,8 @@ import {
   faBrain,
   faCalendarDays,
   faCamera,
+  faCircle,
+  faCircleLeft,
   faDatabase,
   faFaceMehBlank,
   faGraduationCap,
@@ -80,7 +82,7 @@ const Home = () => {
         </svg>
         {/* main header  */}
         <div className="row col-12 d-flex justify-content-center align-servis-items-end ">
-          <div className=" col-12 col-md-9 col-lg-6 col-xl-4  col-xxl-3 header-img">
+          <div className=" col-12 col-md-10 col-lg-6  col-xxl-4 header-img">
             <Image
               src={imgHeader}
               alt="زهرا رجبی فرجاد"
@@ -339,6 +341,11 @@ const Home = () => {
         <div className=" d-flex container justify-content-center justify-content-md-end h-100 align-items-center row w-100">
           <div className="rounded col-11 col-md-9 col-lg-6 col-xl-5 about-main bg-light">
             <h3>درباره من</h3>
+            <span>
+              <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
+              <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
+              <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
+            </span>
             <p>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
               استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
@@ -559,7 +566,7 @@ const Home = () => {
           </div>
         </div>
         <div className="position-absolute bottom-0 w-100 bg-footer">
-          تمام حقوق این سایت مربوط به زهرا رجبی فرجاد میباشد
+          © تمام حقوق این سایت مربوط به زهرا رجبی فرجاد میباشد
         </div>
       </footer>
     </div>

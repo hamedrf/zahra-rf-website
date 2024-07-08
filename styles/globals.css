@@ -203,6 +203,7 @@ body {
 
 /* img header animation  */
 .header-img {
+  margin-top: 25vh;
   transform: translateX(-25vw) scale(0.2, 0.2);
   opacity: 0;
   animation: animateheaderimg 4s forwards;
