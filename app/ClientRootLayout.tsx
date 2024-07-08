@@ -23,9 +23,9 @@ export default function ClientRootLayout({
     });
 
     const handleScroll = () => {
-      const offset = $("#faq").offset();
+      const offset = $("#about").offset();
       if (offset) {
-        const scrollPoint = offset.top;
+        const scrollPoint = offset.top - 300;
         const targetElement = $(".footer");
 
         const scrollTop = $(window).scrollTop();

@@ -16,8 +16,8 @@ const NavBar: React.FC = () => {
           duration={500}
           className="navbar-brand"
         >
-          <span style={{ color: "#A3D2A1" }}>Zahra</span>
-          <span style={{ color: "#FFA07A" }}> rajabifarjad</span>
+          <span style={{ color: "rgba(0, 108, 255, 0.6)" }}>Zahra</span>
+          <span style={{ color: "#FF9500" }}> rajabifarjad</span>
         </Link>
         <button
           className="navbar-toggler"

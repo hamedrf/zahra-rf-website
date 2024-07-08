@@ -89,17 +89,16 @@ const Home = () => {
               className="w-100 h-100"
             />
           </div>
-          <div className="col-12  col-lg-6 col-xl-5  col-xxl-3 align-self-center d-flex justify-content-center  flex-column header-text pe-3">
-            <h1>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است
-            </h1>
-            <div>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-              ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-            </div>
-            <div className="align-self-center align-self-lg-end d-flex ">
+          <div className="col-12  col-lg-6 col-xl-5  col-xxl-3 align-self-center d-flex justify-content-center  flex-column header-text pe-3 py-3">
+            <h1>درس خواندن آسان است.</h1>
+            <p className="my-3">
+              تحصیل می‌تواند یکی از چالشی‌ترین فعالیت‌ها باشد، اما با منابع خوب
+              و مشاور تحصیلی مناسب، می‌تواند به تجربه‌ای لذت‌بخش و آسان تبدیل
+              شود. با دسترسی به منابع برتر و پشتیبانی از مشاوران حرفه‌ای، شما
+              می‌توانید مسیر یادگیری خود را هموار کنید و به موفقیت‌های بیشتری
+              دست یابید.
+            </p>
+            <div className="align-self-center align-self-lg-end d-flex my3 ">
               <button className="btn-animation bg-gray mx-3">رزومه</button>
               <br />
               <button className="btn-animation bg-green-melo">
@@ -339,26 +338,50 @@ const Home = () => {
         className="bg-about w-100 d-flex justify-content-center position-relative z-1"
       >
         <div className=" d-flex container justify-content-center justify-content-md-end h-100 align-items-center row w-100">
-          <div className="rounded col-11 col-md-9 col-lg-6 col-xl-5 about-main bg-light">
-            <h3>درباره من</h3>
+          <div
+            className="rounded col-11 col-md-9 col-lg-6 col-xl-5 about-main bg-light"
+            data-aos="zoom-out-up"
+          >
+            <h3 className="fw-bold">سوابق علمی</h3>
+            <ul>
+              <li>
+                <strong>کارشناسی ارشد روانشناسی گرایش شخصیت</strong>
+              </li>
+              <li>
+                <strong>سازنده هوش تحلیلی برای کودکان ۷ تا ۱۲ سال</strong>
+              </li>
+              <li>
+                <strong>دوره تخصصی تشخیص و درمان بیش‌فعالی</strong> از مرکز
+                تخصصی خدمات روانشناختی و مشاوره آزیار
+              </li>
+              <li>
+                <strong>دوره تخصصی شن بازی درمانی</strong> از مرکز تخصصی خدمات
+                روانشناختی و مشاوره آزیار
+              </li>
+              <li>
+                <strong>دوره تخصصی تشخیص و درمان افسردگی</strong> از مرکز تخصصی
+                خدمات روانشناختی و مشاوره آزیار
+              </li>
+              <li>
+                <strong>دوره تخصصی هنر درمانی</strong> از وزارت ارشاد
+              </li>
+            </ul>
             <span>
               <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
               <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
               <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
+              <br />
             </span>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
-              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
-              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
-              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
-              کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-              جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
-              طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
-              فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
-              موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد
-              نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
-              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-            </p>
+
+            <h3 className="fw-bold">سوابق کاری</h3>
+            <ul>
+              <li>اتاق فکر و مسئول آموزشی مدرسه شهید جبلی نیاوران تهران</li>
+              <li>مدرس آزمایشگاه گیاه‌شناسی در مدرسه روشنگر تهران</li>
+              <li>معاون آموزشی در مدرسه نوید صالحین اهواز</li>
+              <li>معاون آموزشی در مدرسه شکوفه‌های دانش کاشان</li>
+              <li>فعالیت در کلینیک طلیعه صبح (شعبه فردوس شرقی و پونک) تهران</li>
+              <li>فعالیت در کلینیک رویش سبز شریعتی تهران</li>
+            </ul>
           </div>
         </div>
       </section>
