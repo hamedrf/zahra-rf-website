@@ -1,39 +1,22 @@
 import imgHeader from "../public/images/zahra rajabifarjad.png";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faTwitter,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 import {
-  faAnchor,
   faAward,
-  faB,
   faBook,
   faBrain,
   faCalendarDays,
-  faCamera,
   faCircle,
-  faCircleLeft,
-  faDatabase,
-  faFaceMehBlank,
   faGraduationCap,
-  faGrinStars,
-  faHourglassHalf,
   faLightbulb,
   faMapSigns,
   faPenToSquare,
   faPhone,
-  faPhoneAlt,
-  faPhoneSquare,
   faSearch,
-  faUpload,
 } from "@fortawesome/free-solid-svg-icons";
-import { faBookTanakh } from "@fortawesome/free-solid-svg-icons/faBookTanakh";
 import FaqSelction from "@/components/FaqSelction";
-import { faPhoneSlash } from "@fortawesome/free-solid-svg-icons/faPhoneSlash";
 
 const Home = () => {
   return (
@@ -367,9 +350,9 @@ const Home = () => {
               </li>
             </ul>
             <span>
-              <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
-              <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
-              <FontAwesomeIcon icon={faCircle} className="text-danger mx-1" />
+              <FontAwesomeIcon icon={faCircle} className="text-orange mx-1" />
+              <FontAwesomeIcon icon={faCircle} className="text-orange mx-1" />
+              <FontAwesomeIcon icon={faCircle} className="text-orange mx-1" />
               <br />
             </span>
 
