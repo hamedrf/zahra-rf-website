@@ -41,5 +41,5 @@ export default function ClientRootLayout({
     $(window).on("scroll", handleScroll);
   }, []);
 
-  return <div className={inter.className}>{children}</div>;
+  return <div>{children}</div>;
 }
